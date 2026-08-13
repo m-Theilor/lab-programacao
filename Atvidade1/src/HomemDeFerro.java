@@ -12,6 +12,11 @@ public class HomemDeFerro extends Heroi{
     private double dinheiro;
     private String armadura;
     
+    @Override
+    public void atacar() {
+        System.out.println(getNome() + " disparou um Raio Propulsor usando a armadura " + armadura + "!");
+    }
+    
     public void criar(){
         System.out.println("Homem de Ferro criou a armadura: " + armadura);
     }

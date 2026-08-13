@@ -12,6 +12,11 @@ public class Hulk extends Heroi{
     private String cor;
     private String fontePoder;
 
+    @Override
+    public void atacar() {
+        System.out.println(getNome() + " esmagou com SMASH!");
+    }
+    
     public String getCor() {
         return cor;
     }

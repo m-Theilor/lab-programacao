@@ -13,6 +13,11 @@ public class Goku extends Heroi{
     private String poderExtra;
     private double nivelPoder;
     
+    @Override
+    public void atacar(){
+        System.out.println(getNome() + " disparou um Kamehamehaaaaa!");
+    }
+    
     public void transformar(){
         System.out.println("Goku transformou em: " + transformacao);
     }

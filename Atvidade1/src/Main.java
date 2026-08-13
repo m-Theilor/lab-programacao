@@ -14,7 +14,6 @@ public class Main {
         goku.setNome("Goku");
         goku.setVida(1000);
         goku.setEnergia(1000);
-        goku.setAtaque("Kamehamehaaaaa");
         goku.setNivelPoder(8001);
         goku.setPoderExtra("Kaioken");
         goku.setTransformacao("SSJ 2");
@@ -26,7 +25,6 @@ public class Main {
         homemdeferro.setNome("Homem de Ferro");
         homemdeferro.setVida(100);
         homemdeferro.setEnergia(200);
-        homemdeferro.setAtaque("Raio Propulsor");
         homemdeferro.setArmadura("Mark IV");
         homemdeferro.setDinheiro(1000000000);
         homemdeferro.apresentar();
@@ -37,7 +35,6 @@ public class Main {
         hulk.setNome("Hulk");
         hulk.setVida(1000);
         hulk.setEnergia(1000);
-        hulk.setAtaque("Smash");
         hulk.setCor("Verde");
         hulk.setFontePoder("Raiva");
         hulk.apresentar();
